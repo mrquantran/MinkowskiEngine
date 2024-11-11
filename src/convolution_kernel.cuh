@@ -27,11 +27,14 @@
 
 #include <array>
 #include <vector>
+#include <thrust/execution_policy.h>
 
 #include "gpu.cuh"
 #include "kernel_map.cuh"
 #include "math_functions.cuh"
 #include "types.hpp"
+
+
 
 namespace minkowski {
 
